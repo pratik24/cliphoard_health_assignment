@@ -9,3 +9,4 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+In my refactored code, I have reduced the if else block that we have. Some of the nesting was unnecessary. I did early return when possible instead of pushing them until end and returning only in the end. My version is more readable and clearly we can see how value of candidate is updated on different condition. In some place where it is an easy check I have used ternary operator(?:) instead of if statement.

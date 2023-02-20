@@ -31,7 +31,7 @@ Ticket 1
 - Acceptance criteria - Test cases passing, Working API to create entry in facility_agent_custom_field. Unique custom_id per agent of facilty. 
 
 Ticket 2
-- ticket - Frontend changes to allow facilities to add custom id
+- title - Frontend changes to allow facilities to add custom id
 - description:
     - New view/modal to add and update custom id with form and button
     - Integration of add/update custom id API.
@@ -40,7 +40,7 @@ Ticket 2
 - Acceptance criteria - Facilities can input and save custom IDs for Agents, they can see proper error message if they use duplicate custom_id for agent    
 
 Ticket 3
-- ticket - Update report to include custom id
+- title - Update report to include custom id
 - description:
     - Update generateReport to also include custom id of agent in report if that is present. 
     - It might happen that for some agents there is primary id and custom id for others.

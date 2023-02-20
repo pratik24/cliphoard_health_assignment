@@ -26,18 +26,18 @@ Ticket 1
     - Service unit test cases and Rest API test cases for Invalid input, validation for unique custom id per facility, successful creation of entry.
     - Unit test for CRUD operations in new table facility_agent_custom_field.
     - Update getShiftsByFacility unit test to also check for custom id.
-    - Check getShiftsByFacility also returns custom id data as well of agents and update accordingly.<br/>
-Estimated hours - 12-14 hours<br/>
-Acceptance criteria - Test cases passing, Working API to create entry in facility_agent_custom_field. Unique custom_id per agent of facilty. 
+    - Check getShiftsByFacility also returns custom id data as well of agents and update accordingly.
+- Estimated hours - 12-14 hours
+- Acceptance criteria - Test cases passing, Working API to create entry in facility_agent_custom_field. Unique custom_id per agent of facilty. 
 
 Ticket 2
 - ticket - Frontend changes to allow facilities to add custom id
 - description:
     - New view/modal to add and update custom id with form and button
     - Integration of add/update custom id API.
-    - Message display on successful entry or error when it fails to updates<br/>
-Estimated hours - 8-10 hours<br/>
-Acceptance criteria - Facilities can input and save custom IDs for Agents, they can see proper error message if they use duplicate custom_id for agent    
+    - Message display on successful entry or error when it fails to updates
+- Estimated hours - 8-10 hours
+- Acceptance criteria - Facilities can input and save custom IDs for Agents, they can see proper error message if they use duplicate custom_id for agent    
 
 Ticket 3
 - ticket - Update report to include custom id
@@ -46,5 +46,5 @@ Ticket 3
     - It might happen that for some agents there is primary id and custom id for others.
     - Add distinguisher before ids like facility_custom_id# if it is custom id
     - Update generateReport test cases
-Estimated hours - 4-5 hours
-Acceptance criteria - When facilities download the report they should be able to see custom id for agents instead of internal db ids     
+- Estimated hours - 4-5 hours
+- Acceptance criteria - When facilities download the report they should be able to see custom id for agents instead of internal db ids     
